@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class JokesManager : MonoBehaviour
 {
     [SerializeField] private ButtonManager[] buttons;
+    [SerializeField] private GameObject askObject;
+    [SerializeField] private TMP_Text askText;
     
     private Joke[] jokes;
     private int jokesIndex = 0;
@@ -27,8 +30,25 @@ public class JokesManager : MonoBehaviour
     //Funcion para actualizar cada panel con el chiste correspondiente
     public void UpdateButtons()
     {
+        
         if (jokesIndex < jokes.Length)
         {
+            //Comprobar si el chiste que sigue es de tipo pregunta
+            if (jokes[jokesIndex].Category == Category.ASK)
+            {
+                print("Pregunta");
+                askObject.SetActive(true);
+                askText.text = jokes[jokesIndex].JokeContent;
+                jokesIndex++;
+
+            }
+            else
+            {
+                askObject.SetActive(false);
+                print("No pregunto");
+            }
+
+
             foreach (ButtonManager button in buttons)
             {
                 button.UpdateJoke(jokes[jokesIndex]);

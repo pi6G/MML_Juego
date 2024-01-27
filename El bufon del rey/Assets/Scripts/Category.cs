@@ -4,5 +4,5 @@ using UnityEngine;
 
 public enum Category
 {
-    GOOD, MEH, BAD
+    GOOD, MEH, BAD, ASK
 }

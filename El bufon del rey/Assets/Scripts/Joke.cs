@@ -6,6 +6,7 @@ public class Joke : MonoBehaviour
 {
     [SerializeField] private Category category;
     [SerializeField ] [TextArea] private string jokeContent;
-    public string GetJokeContent() {  return jokeContent; }
+    public string JokeContent { get { return jokeContent;  } } 
+    public Category Category { get { return category; } }
 
 }
