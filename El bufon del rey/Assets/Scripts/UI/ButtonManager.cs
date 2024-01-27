@@ -6,10 +6,7 @@ using Cinemachine;
 public class ButtonManager : MonoBehaviour
 {
     private Joke joke;
-    
 
-    public void MakeTransition()
-    {
 
-    }
+
 }
