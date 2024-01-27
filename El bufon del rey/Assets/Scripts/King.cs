@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class King : MonoBehaviour
 {
-    private Joke jokesList;
+    [SerializeField] private Joke[] jokesList;
 
+    public Joke[] GetJokes() { return jokesList; }
 }
