@@ -27,10 +27,17 @@ public class JokesManager : MonoBehaviour
     //Funcion para actualizar cada panel con el chiste correspondiente
     public void UpdateButtons()
     {
-        foreach (ButtonManager button in buttons)
+        if (jokesIndex < jokes.Length)
         {
-            button.UpdateJoke(jokes[jokesIndex]);
-            jokesIndex++;
+            foreach (ButtonManager button in buttons)
+            {
+                button.UpdateJoke(jokes[jokesIndex]);
+                jokesIndex++;
+            }
+        }
+        else
+        {
+
         }
     }
 }

@@ -1,0 +1,384 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4928183021070162583
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 545386560479651523, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: 'Cual es el colmo de un electricista?
+
+        Estar Cargadito de comida'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2177254439038815294, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: "Dile a tu hermana que no est\xE1 gorda, que solo es talla \u201CL\u201D
+        fante."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762580502374368542, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: 'Por que los camellos no puede hacer pi pi?
+
+
+
+        Por que no tienen
+        claxon'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840830967899624258, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840830967899624258, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: 'Cual es el colmo de un electricista?
+
+        Que se resista a trabajar '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4042106459382901650, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6301887
+      objectReference: {fileID: 0}
+    - target: {fileID: 4042106459382901650, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6301887
+      objectReference: {fileID: 0}
+    - target: {fileID: 4042106459382901650, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6301887
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411376947704726933, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411376947704726933, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: Era tan rico que se lo comieron.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479615325152052994, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479615325152052994, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: "-\xBFPodr\xEDas traerme una botella de agua?\n-Aqui solo tenemos botellas
+        de vidrio.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5794454701537426724, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_Name
+      value: Fat King
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117653342688669711, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117653342688669711, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: 'Cual es el colmo de un joyero?
+
+        Comerse las joyas del rey
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6245682572984814645, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: 'Un borracho le dice a otro:
+
+        Deja de beber que te estas poniendo
+        borroso.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647005778326356748, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647005778326356748, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: 'Cual es el colmo de un electricista?
+
+        Estar aislado  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658126313840089376, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658126313840089376, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: "Cual es el colmo de un joyero? \nHacer joyas m\xE1s pesadas que el
+        rey. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7184729497614908664, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7184729497614908664, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: "Cual es el colmo de un joyero?\r\nTener un coraz\xF3n de oro\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556058233090729972, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7556058233090729972, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: "De que tiene que esta llena una botella para que pese menos.\r\nDebe
+        estar \xA1LLena de agujeros!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599679184017496696, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.size
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1729952645627577271}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1189558424888666776}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[8]
+      value: 
+      objectReference: {fileID: 2869115333189625455}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[9]
+      value: 
+      objectReference: {fileID: 3222587995403484515}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[10]
+      value: 
+      objectReference: {fileID: 607965350889659797}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[11]
+      value: 
+      objectReference: {fileID: 1353740076338910882}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[12]
+      value: 
+      objectReference: {fileID: 7075933521806516105}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[13]
+      value: 
+      objectReference: {fileID: 3508048140733467835}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[14]
+      value: 
+      objectReference: {fileID: 8744925801016073986}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[15]
+      value: 
+      objectReference: {fileID: 4352928027665878614}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[16]
+      value: 
+      objectReference: {fileID: 4422899532432410241}
+    - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokesList.Array.data[17]
+      value: 
+      objectReference: {fileID: 8905690498276572739}
+    - target: {fileID: 8135042066732314173, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415956025036559916, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415956025036559916, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: "Cuando te trae mala suerte que se te cruce un gato negro?\n\r\ncuando
+        eres un rat\xF3n.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650527177305117889, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650527177305117889, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: jokeContent
+      value: "Tengo 3 llamadas perdidas de mi oftalm\xF3logo: el de ver me llama."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+--- !u!114 &607965350889659797 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5479615325152052994, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1189558424888666776 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6117653342688669711, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1353740076338910882 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6245682572984814645, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1729952645627577271 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6658126313840089376, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2869115333189625455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7184729497614908664, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3222587995403484515 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7556058233090729972, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3508048140733467835 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8415956025036559916, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4352928027665878614 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8650527177305117889, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4422899532432410241 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8720420131481558038, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7075933521806516105 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2762580502374368542, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8744925801016073986 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4411376947704726933, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8905690498276572739 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4608081863127803092, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+  m_PrefabInstance: {fileID: 4928183021070162583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Joke : MonoBehaviour
 {
     [SerializeField] private Category category;
-    [SerializeField ]private string jokeContent;
+    [SerializeField ] [TextArea] private string jokeContent;
     public string GetJokeContent() {  return jokeContent; }
 
 }
