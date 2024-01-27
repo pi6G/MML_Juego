@@ -23,7 +23,7 @@ public class ButtonManager : MonoBehaviour
     public void UpdateJoke(Joke joke)
     {
         this.joke = joke;
-        textUI.text = joke.GetJokeContent();
+        textUI.text = joke.JokeContent;
     }
 
     public void IncreaseCamera()
