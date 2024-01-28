@@ -549,20 +549,12 @@ PrefabInstance:
         claxon'
       objectReference: {fileID: 0}
     - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
       propertyPath: m_LocalPosition.z
