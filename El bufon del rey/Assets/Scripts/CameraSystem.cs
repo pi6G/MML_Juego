@@ -9,7 +9,7 @@ public class CameraSystem : MonoBehaviour
     [SerializeField] private JokesManager jokesManager;
 
     private float camSpeed = 1f;
-    private float minFieldOfView = 40f;
+    private float minFieldOfView = 20f;
     private float maxFieldOfView = 60f;
     private float fieldOfView;
     public float verticalSpeed = 0.1f;
@@ -55,7 +55,7 @@ public class CameraSystem : MonoBehaviour
         {
             currentTime += Time.deltaTime;
             virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(initialFieldOfView, minFieldOfView, currentTime/time);
-            initialVirtualCameraY = Mathf.Lerp(initialVirtualCameraY, 2.3f, (currentTime/time)*verticalSpeed);
+            initialVirtualCameraY = Mathf.Lerp(initialVirtualCameraY, 4.1f, (currentTime/time)*verticalSpeed);
             virtualCamera.m_Follow.position = new Vector3(initialVirtualCamera.x, initialVirtualCameraY, initialVirtualCamera.z);
             yield return new WaitForEndOfFrame();
         }
@@ -69,7 +69,7 @@ public class CameraSystem : MonoBehaviour
         {
             currentTime += Time.deltaTime;
             virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(minFieldOfView, initialFieldOfView, currentTime / time);
-            initialVirtualCameraY = Mathf.Lerp(2.3f, initialVirtualCamera.y, currentTime / time);
+            initialVirtualCameraY = Mathf.Lerp(4.1f, initialVirtualCamera.y, currentTime / time);
             virtualCamera.m_Follow.position = new Vector3(initialVirtualCamera.x, initialVirtualCameraY, initialVirtualCamera.z);
             yield return new WaitForEndOfFrame();
         }

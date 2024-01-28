@@ -50,13 +50,15 @@ public class KingManager : MonoBehaviour
         if (!(spriteIndex == 0 && index < 0))
         {
             spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(1f);
             if (!(spriteIndex == 10 && index > 0))
             {
                 for (int i = 0; i < 2; i++)
                 {
+                    yield return new WaitForSeconds(0.1f);
                     spriteIndex += index;
                     spriteRenderer.sprite = sprites[spriteIndex];
-                    yield return new WaitForSeconds(1);
+                    //yield return new WaitForSeconds(1.5f);
                 }
                 yield return new WaitForSeconds(1f);
                 currentMood = mood;

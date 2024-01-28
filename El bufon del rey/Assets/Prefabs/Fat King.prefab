@@ -453,17 +453,17 @@ MonoBehaviour:
   spriteIndex: 4
   king: {fileID: 0}
   sprites:
-  - {fileID: 548215190, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: 1982038668, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: -1370646320, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: 938357095, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: -327965205, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: -177141322, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: -1191292205, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: -88408599, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: 223582468, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: 2137540266, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
-  - {fileID: 2073430759, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
+  - {fileID: 1623322783, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: 1765000867, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: 1786245184, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: -1289993829, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: 1578588420, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: 1885837096, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: 456577368, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: -1119505910, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: -561043759, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: 1108303378, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
+  - {fileID: -23226914, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
 --- !u!114 &1729952645627577271 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6658126313840089376, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
