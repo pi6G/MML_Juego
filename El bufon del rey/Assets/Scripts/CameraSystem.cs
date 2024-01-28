@@ -43,6 +43,7 @@ public class CameraSystem : MonoBehaviour
     IEnumerator StartZoom()
     {
         float initialFieldOfView = virtualCamera.m_Lens.FieldOfView;
+        jokesManager.ChangeVisibleButtons();
         yield return new WaitForSeconds(0.1f);
         float time = 1.5f;
         Debug.Log("before enter the while");
@@ -55,7 +56,7 @@ public class CameraSystem : MonoBehaviour
         }
         Debug.Log("finished while");
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3.4f);
 
         currentTime = 0f;
         Debug.Log("before enter the second while");
@@ -66,6 +67,7 @@ public class CameraSystem : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         jokesManager.UpdateButtons();
+        jokesManager.ChangeVisibleButtons();
         Debug.Log("finished second while");
     }
 }

@@ -58,4 +58,14 @@ public class JokesManager : MonoBehaviour
 
         }
     }
+
+    public void ChangeVisibleButtons()
+    {
+        askObject.SetActive(false);
+        foreach (ButtonManager button in buttons)
+        {
+            button.gameObject.SetActive(!button.gameObject.activeSelf);
+        }
+
+    }
 }
