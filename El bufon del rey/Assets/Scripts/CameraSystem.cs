@@ -43,6 +43,8 @@ public class CameraSystem : MonoBehaviour
     IEnumerator StartZoom()
     {
         float initialFieldOfView = virtualCamera.m_Lens.FieldOfView;
+        Vector3 initialVirtualCamera = virtualCamera.transform.position;
+        float initialVirtualCameraY = initialVirtualCamera.y;
         jokesManager.ChangeVisibleButtons();
         yield return new WaitForSeconds(0.1f);
         float time = 1.5f;
@@ -52,6 +54,8 @@ public class CameraSystem : MonoBehaviour
         {
             currentTime += Time.deltaTime;
             virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(initialFieldOfView, minFieldOfView, currentTime/time);
+            initialVirtualCameraY = Mathf.Lerp(initialVirtualCameraY, 1f, currentTime / time);
+            virtualCamera.transform.position = new Vector3(initialVirtualCamera.x, initialVirtualCameraY, initialVirtualCamera.z);
             yield return new WaitForEndOfFrame();
         }
         Debug.Log("finished while");

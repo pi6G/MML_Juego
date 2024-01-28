@@ -262,6 +262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fat King
       objectReference: {fileID: 0}
+    - target: {fileID: 1445204135673948083, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -309,6 +313,10 @@ PrefabInstance:
     - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8970077751221154053, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
