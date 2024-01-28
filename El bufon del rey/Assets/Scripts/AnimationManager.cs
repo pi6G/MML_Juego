@@ -19,6 +19,6 @@ public class AnimationManager : MonoBehaviour
     {
         spriteAnimation.SetActive(true);
         yield return new WaitForSeconds(0.1f);
-        animator.Play("FKing_DeadAnimation");
+        animator.Play("King_DeadAnimation");
     }
 }

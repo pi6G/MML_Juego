@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BigKing.unity
     guid: 63257e9da1ad21645b3ad2fc247a0cb0
+  - enabled: 1
+    path: Assets/Scenes/BigQueen.unity
+    guid: 2a5fb19292e0bbc4ab493a2febc76b65
   m_configObjects: {}
