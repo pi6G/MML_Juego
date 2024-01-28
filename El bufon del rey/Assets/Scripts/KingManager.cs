@@ -90,15 +90,19 @@ public class KingManager : MonoBehaviour
                 break;
             case 2:
                 finalMessages[2].SetActive(true);
+                ScoreManager.Instance.AddScore(1);
                 break;
             case 3:
                 finalMessages[3].SetActive(true);
+                ScoreManager.Instance.AddScore(5);
                 break;
             case 4:
                 finalMessages[4].SetActive(true);
+                ScoreManager.Instance.AddScore(15);
                 break;
             case 5:
                 finalMessages[5].SetActive(true);
+                ScoreManager.Instance.AddScore(30);
                 break;
         }
         yield return new WaitForSeconds(4);
