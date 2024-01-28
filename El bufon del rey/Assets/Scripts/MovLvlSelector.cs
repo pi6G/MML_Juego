@@ -32,18 +32,30 @@ public class MovLvlSelector : MonoBehaviour
     IEnumerator Castle1() 
     {
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene("BigKing");
+        if (ScoreManager.Instance.ValidateCastle(1))
+        {
+            ScoreManager.Instance.castles[0] = 0;
+            SceneManager.LoadScene("BigKing");
+        }
     }
 
     IEnumerator Castle2()
     {
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene("BigKing");
+        if (ScoreManager.Instance.ValidateCastle(2))
+        {
+            ScoreManager.Instance.castles[1] = 0;
+            SceneManager.LoadScene("BigKing");
+        }
     }
 
     IEnumerator Castle3()
     {
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene("BigKing");
+        if (ScoreManager.Instance.ValidateCastle(3))
+        {
+            ScoreManager.Instance.castles[2] = 0;
+            SceneManager.LoadScene("BigKing");
+        }
     }
 }

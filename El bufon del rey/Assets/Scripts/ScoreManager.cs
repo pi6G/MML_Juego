@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Linq;
 
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager Instance { get; private set; }
 
-    private int score;
-    private TextMeshProUGUI textMesh;
+    private int score = 0;
     private TMP_Text scoreText;
+    public int[] castles;
 
     private void Awake()
     {
@@ -23,14 +24,23 @@ public class ScoreManager : MonoBehaviour
             DontDestroyOnLoad(this);
         }
     }
-    private void Start()
-    {
-        scoreText = GameObject.FindGameObjectWithTag("Score").GetComponent<TMP_Text>();
-    }
 
     public void AddScore(int score)
     {
         this.score += score;
-        scoreText.text = "Coins: " + score.ToString();
+    }
+
+    public int GetScore()
+    {
+        return this.score;
+    }
+
+    public bool ValidateCastle(int castleNumber)
+    {
+        if (castles.Contains(castleNumber))
+        {
+            return true;
+        }
+        else return false;
     }
 }
