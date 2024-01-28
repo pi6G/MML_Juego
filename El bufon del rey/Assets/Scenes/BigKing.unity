@@ -160,7 +160,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.13333334, g: 0.1254902, b: 0.20392159, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -549,12 +549,20 @@ PrefabInstance:
         claxon'
       objectReference: {fileID: 0}
     - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.2
       objectReference: {fileID: 0}
     - target: {fileID: 8766589317457058528, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
       propertyPath: m_LocalPosition.z
@@ -588,6 +596,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8970077751221154053, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1578588420, guid: 14137216045f28044b4ad2681f51c1d1, type: 3}
     - target: {fileID: 8970077751221154053, guid: 05d2077be23d5a2498acf998ffe776df, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -968,6 +980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virtualCamera: {fileID: 1061397323}
   jokesManager: {fileID: 940404004}
+  verticalSpeed: 0.1
 --- !u!4 &708683461
 Transform:
   m_ObjectHideFlags: 0
@@ -1297,7 +1310,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 708683461}
+  m_LookAt: {fileID: 0}
   m_Follow: {fileID: 708683461}
   m_Lens:
     FieldOfView: 60
