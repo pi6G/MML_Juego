@@ -11,7 +11,9 @@ public class KingManager : MonoBehaviour
     public Sprite[] sprites;
     private SpriteRenderer spriteRenderer;
     [SerializeField] private GameObject finalPanel;
+    [SerializeField] private GameObject buttonPanel;
     [SerializeField] private GameObject[] finalMessages;
+    [SerializeField] private AnimationManager animationManager;
 
     private void Start()
     {
@@ -72,8 +74,11 @@ public class KingManager : MonoBehaviour
         }
         else
         {
+            spriteRenderer.enabled = true;
             yield return new WaitForSeconds(1.5f);
+            spriteRenderer.enabled = false;
             StartCoroutine(FinishState());
+
         }
     }
 
@@ -83,6 +88,12 @@ public class KingManager : MonoBehaviour
         switch (currentMood)
         {
             case 0:
+                finalPanel.SetActive(false);
+                buttonPanel.SetActive(false);
+                yield return new WaitForSeconds(3.1f);
+                animationManager.Inicialice();
+                yield return new WaitForSeconds(2f);
+                finalPanel.SetActive(true);
                 finalMessages[0].SetActive(true);
                 break;
             case 1:
@@ -101,8 +112,8 @@ public class KingManager : MonoBehaviour
                 finalMessages[5].SetActive(true);
                 break;
         }
-        yield return new WaitForSeconds(4);
-        SceneManager.LoadScene("SelectordeNiveles");
+        yield return new WaitForSeconds(6);
+        SceneManager.LoadScene("MainMenu");
     }
 
 }

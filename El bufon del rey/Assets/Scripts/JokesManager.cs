@@ -32,7 +32,6 @@ public class JokesManager : MonoBehaviour
     //Funcion para actualizar cada panel con el chiste correspondiente
     public void UpdateButtons()
     {
-        
         if (jokesIndex < jokes.Length)
         {
             //Comprobar si el chiste que sigue es de tipo pregunta
