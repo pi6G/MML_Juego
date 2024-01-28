@@ -45,7 +45,7 @@ public class MovLvlSelector : MonoBehaviour
         if (ScoreManager.Instance.ValidateCastle(2))
         {
             ScoreManager.Instance.castles[1] = 0;
-            SceneManager.LoadScene("BigKing");
+            SceneManager.LoadScene("BigQueen");
         }
     }
 
