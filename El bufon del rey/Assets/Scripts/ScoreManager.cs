@@ -10,6 +10,7 @@ public class ScoreManager : MonoBehaviour
 
     private int score = 0;
     public int[] castles = { 1, 2 };
+    public Vector3 position = new Vector3(-6.99f, -3.18f, -2.11f);
 
     private void Awake()
     {
@@ -48,5 +49,6 @@ public class ScoreManager : MonoBehaviour
         score = 0;
         castles[0] = 1;
         castles[1] = 2;
+        position = new Vector3(-6.99f, -3.18f, -2.11f);
     }
 }

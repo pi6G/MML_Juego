@@ -34,6 +34,7 @@ public class MovLvlSelector : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         if (ScoreManager.Instance.ValidateCastle(1))
         {
+            ScoreManager.Instance.position = transform.position;
             ScoreManager.Instance.castles[0] = 0;
             SceneManager.LoadScene("BigKing");
         }
@@ -44,6 +45,7 @@ public class MovLvlSelector : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         if (ScoreManager.Instance.ValidateCastle(2))
         {
+            ScoreManager.Instance.position = transform.position;
             ScoreManager.Instance.castles[1] = 0;
             SceneManager.LoadScene("BigQueen");
         }

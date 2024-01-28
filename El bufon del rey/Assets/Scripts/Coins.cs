@@ -10,6 +10,7 @@ public class Coins : MonoBehaviour
     [SerializeField] private GameObject finalPanel;
     [SerializeField] private TMP_Text scoreFinal;
     private TMP_Text scoreText;
+    [SerializeField] private GameObject bufon;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,8 @@ public class Coins : MonoBehaviour
             scoreText = scoreObject.GetComponent<TMP_Text>();
             UpdateScore();
         }
+
+        bufon.transform.position = ScoreManager.Instance.position;
 
         if (ValidateFinal())
         {
@@ -47,7 +50,6 @@ public class Coins : MonoBehaviour
 
     private IEnumerator ShowFinalPanel()
     {
-        scoreFinal.gameObject.SetActive(false);
         finalPanel.SetActive(true);
         scoreFinal.text = ScoreManager.Instance.GetScore().ToString();
         yield return new WaitForSeconds(4);
