@@ -9,7 +9,7 @@ public class CameraSystem : MonoBehaviour
     [SerializeField] private JokesManager jokesManager;
 
     private float camSpeed = 1f;
-    private float minFieldOfView = 30f;
+    private float minFieldOfView = 40f;
     private float maxFieldOfView = 60f;
     private float fieldOfView;
     private void Start()

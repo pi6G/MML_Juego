@@ -125,6 +125,10 @@ PrefabInstance:
       value: 'Que se resista a trabajar '
       objectReference: {fileID: 0}
     - target: {fileID: 4042106459382901650, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -327965205, guid: 8e6eaa507ccda8d469f1a23985bd34ec, type: 3}
+    - target: {fileID: 4042106459382901650, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: m_Color.b
       value: 0.6301887
       objectReference: {fileID: 0}

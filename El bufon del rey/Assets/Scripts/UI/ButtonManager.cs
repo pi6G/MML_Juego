@@ -9,9 +9,9 @@ public class ButtonManager : MonoBehaviour
     private Joke joke;
     [SerializeField] private TMP_Text textUI;
     [SerializeField] private CameraSystem cameraSystem;
-    [SerializeField] private Score score;
+    [SerializeField] private KingManager king;
 
-    public float scoreQuantity;
+    public int mood = 0;
 
     private Category category;
 
@@ -31,8 +31,8 @@ public class ButtonManager : MonoBehaviour
         cameraSystem.Zoom();
     }
 
-    public void ScoreUpdate()
+    public void MoodUpdate()
     {
-        score.AddScore(scoreQuantity);
+        king.ModifyMood(joke.Category);
     }
 }
