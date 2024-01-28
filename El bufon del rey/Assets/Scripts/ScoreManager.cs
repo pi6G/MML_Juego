@@ -31,6 +31,6 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int score)
     {
         this.score += score;
-        scoreText.text = score.ToString();
+        scoreText.text = "Coins: " + score.ToString();
     }
 }

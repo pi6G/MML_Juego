@@ -61,7 +61,7 @@ public class CameraSystem : MonoBehaviour
         }
         Debug.Log("finished while");
 
-        yield return new WaitForSeconds(3.4f);
+        yield return new WaitForSeconds(3.1f);
 
         currentTime = 0f;
         Debug.Log("before enter the second while");
