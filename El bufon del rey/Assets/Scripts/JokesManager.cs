@@ -36,7 +36,6 @@ public class JokesManager : MonoBehaviour
             //Comprobar si el chiste que sigue es de tipo pregunta
             if (jokes[jokesIndex].Category == Category.ASK)
             {
-                print("Pregunta");
                 askObject.SetActive(true);
                 askText.text = jokes[jokesIndex].JokeContent;
                 jokesIndex++;
@@ -45,7 +44,6 @@ public class JokesManager : MonoBehaviour
             else
             {
                 askObject.SetActive(false);
-                print("No pregunto");
             }
 
 

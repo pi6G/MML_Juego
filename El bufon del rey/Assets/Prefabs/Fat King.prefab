@@ -110,6 +110,10 @@ PrefabInstance:
         fante."
       objectReference: {fileID: 0}
     - target: {fileID: 2762580502374368542, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      propertyPath: category
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762580502374368542, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
       value: 'Por que los camellos no puede hacer pi pi?
 
@@ -138,7 +142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4411376947704726933, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4411376947704726933, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
@@ -345,7 +349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8415956025036559916, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8415956025036559916, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
