@@ -9,8 +9,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance { get; private set; }
 
     private int score = 0;
-    private TMP_Text scoreText;
-    public int[] castles;
+    public int[] castles = { 1,2,3};
 
     private void Awake()
     {
@@ -42,5 +41,13 @@ public class ScoreManager : MonoBehaviour
             return true;
         }
         else return false;
+    }
+
+    public void Reset()
+    {
+        score = 0;
+        castles[0] = 1;
+        castles[1] = 2;
+        castles[2] = 3;
     }
 }

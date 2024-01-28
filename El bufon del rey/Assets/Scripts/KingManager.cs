@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class KingManager : MonoBehaviour
 {
-    public int mood = 2;
-    public int currentMood = 2;
+    [Range(0, 5)] public int mood = 2;
+    [Range(0, 5)] public int currentMood = 2;
     [Range(0,10)] public int spriteIndex = 4;
     public Sprite[] sprites;
     private SpriteRenderer spriteRenderer;
@@ -95,6 +95,9 @@ public class KingManager : MonoBehaviour
                 yield return new WaitForSeconds(2f);
                 finalPanel.SetActive(true);
                 finalMessages[0].SetActive(true);
+                yield return new WaitForSeconds(6);
+                ScoreManager.Instance.Reset();
+                SceneManager.LoadScene("MainMenu");
                 break;
             case 1:
                 finalMessages[1].SetActive(true);
@@ -117,7 +120,7 @@ public class KingManager : MonoBehaviour
                 break;
         }
         yield return new WaitForSeconds(6);
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("SelectordeNiveles");
     }
 
 }
