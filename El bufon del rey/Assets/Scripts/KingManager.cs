@@ -51,12 +51,15 @@ public class KingManager : MonoBehaviour
     public IEnumerator Animation(int index)
     {
         yield return new WaitForSeconds(1.5f);
+        spriteRenderer.enabled = true;
         for (int i = 0; i < 2; i++)
         {
             spriteIndex+=index;
             spriteRenderer.sprite = sprites[spriteIndex];
             yield return new WaitForSeconds(1);
         }
+        yield return new WaitForSeconds(3f);
+        spriteRenderer.enabled = false;
         currentMood = mood;
     }
 }
