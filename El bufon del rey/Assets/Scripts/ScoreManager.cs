@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance { get; private set; }
 
     private int score = 0;
-    public int[] castles = { 1,2,3};
+    public int[] castles = { 1, 2 };
 
     private void Awake()
     {
@@ -48,6 +48,5 @@ public class ScoreManager : MonoBehaviour
         score = 0;
         castles[0] = 1;
         castles[1] = 2;
-        castles[2] = 3;
     }
 }
