@@ -1,5 +1,51 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &573882808205979940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7277559297302093316}
+  - component: {fileID: 6554197632194081134}
+  m_Layer: 0
+  m_Name: joke (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7277559297302093316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573882808205979940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8766589317457058528}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6554197632194081134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573882808205979940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: 3
+  jokeContent: "\xBFCual es el colmo de un pintor?"
 --- !u!1 &3905174626185182741
 GameObject:
   m_ObjectHideFlags: 0
@@ -45,53 +91,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   category: 3
-  jokeContent: Cual es el colmo de un joyero?
---- !u!1 &5917068962201518400
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7169275135222098479}
-  - component: {fileID: 8998288608120869325}
-  m_Layer: 0
-  m_Name: joke (18)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7169275135222098479
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5917068962201518400}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8766589317457058528}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8998288608120869325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5917068962201518400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbe17077ef17f134a987adf43f7b9d4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  category: 3
-  jokeContent: Cual es el colmo de un electricista?
+  jokeContent: Cual es el colmo de un rey?
 --- !u!1001 &4928183021070162583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102,12 +102,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 545386560479651523, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: Estar Cargadito de comida
+      value: "\xBFCuantos narcisistas se necesitan para cambiar un\ncandelabro?\nNinguno,
+        alguien m\xE1s lo har\xE1 por su majestad."
       objectReference: {fileID: 0}
     - target: {fileID: 2177254439038815294, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: "Dile a tu hermana que no est\xE1 gorda, que solo es talla \u201CL\u201D
-        fante."
+      value: "\xBFQu\xE9 pintor va mejor con el pan?\n-Dal\xED"
       objectReference: {fileID: 0}
     - target: {fileID: 2762580502374368542, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -115,10 +115,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2762580502374368542, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: 'Por que los camellos no puede hacer pi pi?
-
-        Por que no tienen
-        claxon'
+      value: La mejor forma de retratar a un rey es evitando hacerlo.
       objectReference: {fileID: 0}
     - target: {fileID: 2840830967899624258, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -126,7 +123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2840830967899624258, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: 'Que se resista a trabajar '
+      value: "\xBFComo se llama el perfume de un re? \nEgo\xEDsmo."
       objectReference: {fileID: 0}
     - target: {fileID: 4042106459382901650, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: m_Sprite
@@ -150,8 +147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4411376947704726933, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: "Que le dice un bu\xF1uelo a una sarten cuando se enfada?\r\nMe tienes
-        frito."
+      value: "\xBFCual es el color favorito de un pintor?\nEl amarillo Van Gogh."
       objectReference: {fileID: 0}
     - target: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: m_LocalScale.x
@@ -203,8 +199,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4608081863127803092, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: "Tengo una amiga a la que le dicen sancocho\u2026 cae bien en cualquier
-        paseo."
+      value: "\xBFCual es la rutina de gimnasio favorita para un rey?\nEspejo al
+        fallo"
       objectReference: {fileID: 0}
     - target: {fileID: 5479615325152052994, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -212,8 +208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5479615325152052994, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: "-\xBFPodr\xEDas traerme una botella de agua?\n-Aqui solo tenemos botellas
-        de vidrio.\r\n"
+      value: "No encontrar la salida en un callej\xF3n sin acuarelas\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5794454701537426724, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: m_Name
@@ -225,16 +220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6117653342688669711, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: 'Comerse las joyas del rey
-
-'
+      value: "Perder la corona y encontrarla en la cabeza del buf\xF3n."
       objectReference: {fileID: 0}
     - target: {fileID: 6245682572984814645, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: 'Un borracho le dice a otro:
-
-        Deja de beber que te estas poniendo
-        borroso.
+      value: 'No conseguir el tono adecuado.
 
 '
       objectReference: {fileID: 0}
@@ -244,7 +234,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6647005778326356748, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: 'Estar aislado  '
+      value: "\xBFPor qu\xE9 los reyes no juegan cartas? porque no deber\xEDa\nrepartir
+        atenci\xF3n."
       objectReference: {fileID: 0}
     - target: {fileID: 6658126313840089376, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -252,7 +243,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6658126313840089376, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: " Hacer joyas m\xE1s pesadas que el rey. "
+      value: 'Ser tan majestuoso que hasta las nubes le piden permiso
+
+        para
+        llover.'
       objectReference: {fileID: 0}
     - target: {fileID: 7184729497614908664, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -260,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7184729497614908664, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: "\rTener un coraz\xF3n de oro\r\n"
+      value: "\rTener un trono tan grande que se puedan ver desde\nmonta\xF1as."
       objectReference: {fileID: 0}
     - target: {fileID: 7556058233090729972, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -268,8 +262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7556058233090729972, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: "De que tiene que esta llena una botella para que pese menos.\nDebe
-        estar \xA1LLena de agujeros!"
+      value: "So\xF1ar en colores y despertar en blanco y negro."
       objectReference: {fileID: 0}
     - target: {fileID: 7599679184017496696, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -277,7 +270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7599679184017496696, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: Eres tan feo que para quitarse el hipo solo debes mirarte al espejo
+      value: "\xBFComo llamo Van Gogh a su banda de rock?\n\xA1The Starry Night!"
       objectReference: {fileID: 0}
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.size
@@ -286,35 +279,35 @@ PrefabInstance:
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.data[3]
       value: 
-      objectReference: {fileID: 8998288608120869325}
+      objectReference: {fileID: 7136170136358717909}
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.data[4]
       value: 
-      objectReference: {fileID: 7136170136358717909}
+      objectReference: {fileID: 1754861039807306139}
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.data[5]
       value: 
-      objectReference: {fileID: 1754861039807306139}
+      objectReference: {fileID: 4897091161809157204}
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.data[6]
       value: 
-      objectReference: {fileID: 4897091161809157204}
+      objectReference: {fileID: 5220600995670479295}
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.data[7]
       value: 
-      objectReference: {fileID: 5220600995670479295}
+      objectReference: {fileID: 1729952645627577271}
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.data[8]
       value: 
-      objectReference: {fileID: 1729952645627577271}
+      objectReference: {fileID: 1189558424888666776}
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.data[9]
       value: 
-      objectReference: {fileID: 1189558424888666776}
+      objectReference: {fileID: 2869115333189625455}
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.data[10]
       value: 
-      objectReference: {fileID: 2869115333189625455}
+      objectReference: {fileID: 6554197632194081134}
     - target: {fileID: 8131370568168204071, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokesList.Array.data[11]
       value: 
@@ -357,7 +350,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8135042066732314173, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: Habia una vez un hombre tan flaco que no servia como asset 3D en Unity
+      value: "\xBFPor qu\xE9 no dejaban jugar las escondidas a Kandinsky?\nPorque
+        siempre se mezclaba"
       objectReference: {fileID: 0}
     - target: {fileID: 8415956025036559916, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -365,8 +359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8415956025036559916, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: "Cuando te trae mala suerte que se te cruce un gato negro?\nCuando eres
-        un rat\xF3n.\r\n"
+      value: "\xBFComo impresionas a un impresionista?\nLe dices que su arte es impresionante."
       objectReference: {fileID: 0}
     - target: {fileID: 8650527177305117889, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -374,7 +367,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8650527177305117889, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: "Tengo 3 llamadas perdidas de mi oftalm\xF3logo: el de ver me llama."
+      value: "\xBFCual es el libro favorito de un rey?\nComo ser increible en todo
+        sin esforzarse."
       objectReference: {fileID: 0}
     - target: {fileID: 8720420131481558038, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: category
@@ -382,17 +376,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8720420131481558038, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       propertyPath: jokeContent
-      value: Era tan rico que se lo comieron.
+      value: "\xBFCual es el animal favorito del rey?\nAquel que ve en el espejo."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 7169275135222098479}
-    - targetCorrespondingSourceObject: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
-      insertIndex: 7
+      insertIndex: 6
       addedObject: {fileID: 4457247975001170324}
+    - targetCorrespondingSourceObject: {fileID: 4453289075045859447, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
+      insertIndex: 10
+      addedObject: {fileID: 7277559297302093316}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5794454701537426724, guid: 46a7af09de8e1374cb2b8783af6e86b2, type: 3}
       insertIndex: -1
