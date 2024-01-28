@@ -66,8 +66,8 @@ public class CameraSystem : MonoBehaviour
             virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(minFieldOfView, initialFieldOfView, currentTime / time);
             yield return new WaitForEndOfFrame();
         }
-        jokesManager.UpdateButtons();
         jokesManager.ChangeVisibleButtons();
+        jokesManager.UpdateButtons();
         Debug.Log("finished second while");
     }
 }

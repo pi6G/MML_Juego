@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KingManager : MonoBehaviour
 {
     public int mood = 2;
     public int currentMood = 2;
-    public int spriteIndex = 4;
+    [Range(0,10)] public int spriteIndex = 4;
     public GameObject king;
     public Sprite[] sprites;
     private SpriteRenderer spriteRenderer;
@@ -37,20 +38,39 @@ public class KingManager : MonoBehaviour
         {
             StartCoroutine(Animation(-1));
         }
+        else
+        {
+            StartCoroutine(Animation(0));
+        }
     }
 
     public IEnumerator Animation(int index)
     {
         yield return new WaitForSeconds(1.7f);
-        spriteRenderer.enabled = true;
-        for (int i = 0; i < 2; i++)
+        if (!(spriteIndex == 0 && index < 0))
         {
-            spriteIndex+=index;
-            spriteRenderer.sprite = sprites[spriteIndex];
-            yield return new WaitForSeconds(1);
+            spriteRenderer.enabled = true;
+            if (!(spriteIndex == 10 && index > 0))
+            {
+                for (int i = 0; i < 2; i++)
+                {
+                    spriteIndex += index;
+                    spriteRenderer.sprite = sprites[spriteIndex];
+                    yield return new WaitForSeconds(1);
+                }
+                yield return new WaitForSeconds(1f);
+                currentMood = mood;
+            }
+            else
+            {
+               yield return new WaitForSeconds(2);
+            }
+            spriteRenderer.enabled = false;
         }
-        yield return new WaitForSeconds(1f);
-        spriteRenderer.enabled = false;
-        currentMood = mood;
+        else
+        {
+            yield return new WaitForSeconds(1.5f);
+            SceneManager.LoadScene("SelectordeNiveles");
+        }
     }
 }
