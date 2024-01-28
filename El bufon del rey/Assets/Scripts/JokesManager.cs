@@ -9,6 +9,7 @@ public class JokesManager : MonoBehaviour
     [SerializeField] private ButtonManager[] buttons;
     [SerializeField] private GameObject askObject;
     [SerializeField] private TMP_Text askText;
+    [SerializeField] private KingManager kingManager;
     
     private Joke[] jokes;
     private int jokesIndex = 0;
@@ -57,14 +58,8 @@ public class JokesManager : MonoBehaviour
         else
         {
             ChangeVisibleButtons();
-            StartCoroutine(ReturnMap());
+            StartCoroutine(kingManager.FinishState());
         }
-    }
-
-    IEnumerator ReturnMap()
-    {
-        yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene("SelectordeNiveles");
     }
 
     public void ChangeVisibleButtons()

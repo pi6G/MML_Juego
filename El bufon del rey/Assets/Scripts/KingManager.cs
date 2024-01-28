@@ -8,9 +8,10 @@ public class KingManager : MonoBehaviour
     public int mood = 2;
     public int currentMood = 2;
     [Range(0,10)] public int spriteIndex = 4;
-    public GameObject king;
     public Sprite[] sprites;
     private SpriteRenderer spriteRenderer;
+    [SerializeField] private GameObject finalPanel;
+    [SerializeField] private GameObject[] finalMessages;
 
     private void Start()
     {
@@ -72,7 +73,36 @@ public class KingManager : MonoBehaviour
         else
         {
             yield return new WaitForSeconds(1.5f);
-            SceneManager.LoadScene("SelectordeNiveles");
+            StartCoroutine(FinishState());
         }
     }
+
+    public IEnumerator FinishState()
+    {
+        finalPanel.SetActive(true);
+        switch (currentMood)
+        {
+            case 0:
+                finalMessages[0].SetActive(true);
+                break;
+            case 1:
+                finalMessages[1].SetActive(true);
+                break;
+            case 2:
+                finalMessages[2].SetActive(true);
+                break;
+            case 3:
+                finalMessages[3].SetActive(true);
+                break;
+            case 4:
+                finalMessages[4].SetActive(true);
+                break;
+            case 5:
+                finalMessages[5].SetActive(true);
+                break;
+        }
+        yield return new WaitForSeconds(4);
+        SceneManager.LoadScene("SelectordeNiveles");
+    }
+
 }
