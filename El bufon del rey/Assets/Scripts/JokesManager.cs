@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class JokesManager : MonoBehaviour
 {
@@ -55,7 +56,24 @@ public class JokesManager : MonoBehaviour
         }
         else
         {
-
+            ChangeVisibleButtons();
+            StartCoroutine(ReturnMap());
         }
+    }
+
+    IEnumerator ReturnMap()
+    {
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene("SelectordeNiveles");
+    }
+
+    public void ChangeVisibleButtons()
+    {
+        askObject.SetActive(false);
+        foreach (ButtonManager button in buttons)
+        {
+            button.gameObject.SetActive(!button.gameObject.activeSelf);
+        }
+
     }
 }

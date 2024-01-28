@@ -15,11 +15,6 @@ public class ButtonManager : MonoBehaviour
 
     private Category category;
 
-    //private void Start()
-    //{
-    //    score = GetComponent<Score>();
-    //}
-
     public void UpdateJoke(Joke joke)
     {
         this.joke = joke;
@@ -34,5 +29,6 @@ public class ButtonManager : MonoBehaviour
     public void MoodUpdate()
     {
         king.ModifyMood(joke.Category);
+
     }
 }

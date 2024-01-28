@@ -12,6 +12,7 @@ public class CameraSystem : MonoBehaviour
     private float minFieldOfView = 40f;
     private float maxFieldOfView = 60f;
     private float fieldOfView;
+    public float verticalSpeed = 0.1f;
     private void Start()
     {
         //virtualCamera = GetComponent<CinemachineVirtualCamera>();
@@ -43,6 +44,9 @@ public class CameraSystem : MonoBehaviour
     IEnumerator StartZoom()
     {
         float initialFieldOfView = virtualCamera.m_Lens.FieldOfView;
+        Vector3 initialVirtualCamera = virtualCamera.m_Follow.position;
+        float initialVirtualCameraY = initialVirtualCamera.y;
+        jokesManager.ChangeVisibleButtons();
         yield return new WaitForSeconds(0.1f);
         float time = 1.5f;
         Debug.Log("before enter the while");
@@ -51,11 +55,13 @@ public class CameraSystem : MonoBehaviour
         {
             currentTime += Time.deltaTime;
             virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(initialFieldOfView, minFieldOfView, currentTime/time);
+            initialVirtualCameraY = Mathf.Lerp(initialVirtualCameraY, 2.3f, (currentTime/time)*verticalSpeed);
+            virtualCamera.m_Follow.position = new Vector3(initialVirtualCamera.x, initialVirtualCameraY, initialVirtualCamera.z);
             yield return new WaitForEndOfFrame();
         }
         Debug.Log("finished while");
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3.4f);
 
         currentTime = 0f;
         Debug.Log("before enter the second while");
@@ -63,8 +69,11 @@ public class CameraSystem : MonoBehaviour
         {
             currentTime += Time.deltaTime;
             virtualCamera.m_Lens.FieldOfView = Mathf.Lerp(minFieldOfView, initialFieldOfView, currentTime / time);
+            initialVirtualCameraY = Mathf.Lerp(2.3f, initialVirtualCamera.y, currentTime / time);
+            virtualCamera.m_Follow.position = new Vector3(initialVirtualCamera.x, initialVirtualCameraY, initialVirtualCamera.z);
             yield return new WaitForEndOfFrame();
         }
+        jokesManager.ChangeVisibleButtons();
         jokesManager.UpdateButtons();
         Debug.Log("finished second while");
     }
