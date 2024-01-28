@@ -35,8 +35,9 @@ public class KingManager : MonoBehaviour
                 mood--;
                 break;
         }
+        VerifyMood();
     }
-    public void VerifyMood(int mood)
+    public void VerifyMood()
     {
         if(mood > currentMood)
         {
@@ -49,12 +50,13 @@ public class KingManager : MonoBehaviour
 
     public IEnumerator Animation(int index)
     {
+        yield return new WaitForSeconds(1.5f);
         for (int i = 0; i < 2; i++)
         {
             spriteIndex+=index;
             spriteRenderer.sprite = sprites[spriteIndex];
-            yield return new WaitForSeconds(1);             
-
+            yield return new WaitForSeconds(1);
         }
+        currentMood = mood;
     }
 }
